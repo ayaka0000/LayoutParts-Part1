@@ -1,1 +1,35 @@
 @charset "UTF-8";
+.cell--table{
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+th,td{
+  border: 1px solid;
+  padding: 10px;
+  font-size: 18px;
+}
+
+th{
+  background: #319c4a;
+  line-height: 26px;
+}
+
+td{
+  line-height: 22px;
+  
+}
+
+tr:nth-child(even){
+  background: #d5ffc7;
+}
+
+tr:nth-child(odd){
+  background: #bcbcbc;
+}
+
+tr:last-child{
+  border-top: 1px double rgb(255, 255, 255);
+}
