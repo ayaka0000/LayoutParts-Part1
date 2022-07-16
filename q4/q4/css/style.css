@@ -1,1 +1,61 @@
 @charset "UTF-8";
+
+/* 共通 */
+.table_A,.table_B{
+  width: 100%;
+  display: table;
+  text-align: center;
+}
+
+.cell_A,.cell_B{
+  display: table-cell;
+}
+
+.cell_A,.cell_B{
+  padding: 20px;
+}
+
+
+/* １段目 */
+
+.cell_A01{
+  width: 300px;
+  background: #ff7b7b;
+}
+
+.cell_A02{
+  background: #7b86ff;
+}
+
+.cell_A03{
+  width: 300px;
+  background: #fff37b;
+}
+
+
+/* ２段目 */
+.table_B{
+  margin-top: 50px;
+}
+
+.cell_B01{
+  background: #7bff91;
+}
+
+.cell_B02{
+  width: 400px;
+  background: #ff7be2;
+}
+
+.cell_B03{
+  width: 400px;
+  background: #ffc67b;
+}
+
+.cell_B04{
+  background: #7bf2ff;
+}
+
+
+
+
