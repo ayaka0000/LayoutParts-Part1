@@ -15,9 +15,7 @@
   padding: 20px;
 }
 
-
 /* １段目 */
-
 .cell_A01{
   width: 300px;
   background: #ff7b7b;
@@ -31,7 +29,6 @@
   width: 300px;
   background: #fff37b;
 }
-
 
 /* ２段目 */
 .table_B{
